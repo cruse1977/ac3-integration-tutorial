@@ -15,5 +15,7 @@ orb:
           package: lab_integration
           schedule: "* * * * *"
           custom_config: custom
+          csv_filename: ${CSV_FILENAME}
+          method: ${METHOD}
         scope:
           custom: any  
