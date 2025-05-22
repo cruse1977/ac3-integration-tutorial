@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import json
 import csv
-from netboxlabs.diode.sdk.ingester import Device, Interface, IPAddres
+from netboxlabs.diode.sdk.ingester import Device, Interface, IPAddress
 from collections.abc import Iterable
 from netboxlabs.diode.sdk.ingester import Entity
 from worker.backend import Backend
