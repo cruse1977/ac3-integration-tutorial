@@ -17,5 +17,7 @@ orb:
           custom_config: custom
           csv_filename: ${CSV_FILENAME}
           method: ${METHOD}
+          controller_url: ${CONTROLLER_URL}
+          controller_token: ${CONTROLLER_TOKEN}
         scope:
           custom: any  
